@@ -18,3 +18,6 @@ The code uses `matplotlib` to plot the final positions of all walkers on a 2D pl
 
 ### Analysis of Walkers' Distribution
 After plotting, the code calculates the percentage of walkers who end up within the red circle (the expected radius), providing insights into the spatial distribution of the walkers after a large number of steps.
+
+### Additional Experiments
+Feel free to experiment with additional directions, number of steps, number of walkers etc.
