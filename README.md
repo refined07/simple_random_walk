@@ -14,7 +14,7 @@ The generator function produces the specified number of walker objects, facilita
 The `walk()` method of each walker simulates its movement over a fixed number of steps, returning the final position of each walker after all steps.
 
 ### Visualization
-The code uses `matplotlib` to plot the final positions of all walkers on a 2D plane. Additionally, a red circle, centered at the origin with a radius proportional to \(\sqrt{N}\) (where \(N\) is the number of steps), provides a visual reference for the expected distance from the origin. This is based on the theoretical result that the average distance from the starting point in a 2D random walk grows with \(\sqrt{N}\).
+The code uses `matplotlib` to plot the final positions of all walkers on a 2D plane. Additionally, a red circle, centered at the origin with a radius proportional to $\sqrt{N}$ (where \(N\) is the number of steps), provides a visual reference for the expected distance from the origin. This is based on the theoretical result that the average distance from the starting point in a 2D random walk grows with $\sqrt{N}$.
 
 ### Analysis of Walkers' Distribution
 After plotting, the code calculates the percentage of walkers who end up within the red circle (the expected radius), providing insights into the spatial distribution of the walkers after a large number of steps.
